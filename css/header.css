@@ -1,0 +1,35 @@
+/*
+Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 16 of /Users/denisurcenko/Desktop/uroki/vs code/Dzadai 6/references-dj6-main/references-dj6-main/start_html/_optimized_gulp_sass/sass/header.sass
+
+11: 
+12: .hidden
+13: 	display: none
+14: 
+15: strong, b
+16:     font-family: "RobotoBold", sans-serif
+17: 
+18:  h1, h2, h3, h4, h5, h6, .button
+19:     font-family: "RobotoCondensedBold", sans-serif
+
+Backtrace:
+/Users/denisurcenko/Desktop/uroki/vs code/Dzadai 6/references-dj6-main/references-dj6-main/start_html/_optimized_gulp_sass/sass/header.sass:16
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 16 of /Users/denisurcenko/Desktop/uroki/vs code/Dzadai 6/references-dj6-main/references-dj6-main/start_html/_optimized_gulp_sass/sass/header.sass\A \A 11: \A 12: .hidden\A 13: 	display: none\A 14: \A 15: strong, b\A 16:     font-family: \"RobotoBold\", sans-serif\A 17: \A 18:  h1, h2, h3, h4, h5, h6, .button\A 19:     font-family: \"RobotoCondensedBold\", sans-serif"; }
